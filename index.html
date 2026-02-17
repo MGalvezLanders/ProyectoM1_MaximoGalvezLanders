@@ -9,6 +9,35 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Colorfly Studio</h1>
+    </header>
+    <main>
+        <section id="paleta" class="contenedor"></section>
+
+        <form action="">
+            <label for="tamaño-paleta">Elegir tamaño:</label>
+            <select name="tamaño-paleta" id="tamaño-paleta">
+                <option value="">Seleccionar tamaño:</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <label for="formato">Elegir formato:</label>
+            <select name="formato" id="formato">
+                <option value="">Seleccionar formato:</option>
+                <option value="hsl">HSL</option>
+                <option value="hex">HEX</option>
+            </select>
+            <label for="tonalidad">Elegir tonalidad:</label>
+            <select name="tonalidad" id="tonalidad">
+                <option value="">Elegir la tonalidad:</option>
+                <option value="oscuro">Oscuro</option>
+                <option value="claro">Claro</option>
+                <option value="aleatorio">Aleatorio</option>
+            </select>
+            <button type="submit">Generar Paleta</button>
+        </form>
+    </main>
 </body>
 </html>
