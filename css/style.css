@@ -20,6 +20,11 @@ h1{
 main{
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: var(--espaciado-lg);
+    border-radius: 10px;
+    background-color: rgb(234, 232, 232);
+    padding: var(--espaciado-lg);
     
 }
 form{
@@ -52,8 +57,9 @@ button{
 .contenedor {
     display: flex;
     width: 50em;
-    height: 30em;
-    gap: 0.2em; 
+    height: 30em; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 .color-box {
     width: 0em;
@@ -63,10 +69,11 @@ button{
     display: grid;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
+    border-radius: 5px;
+    
 }
 .color-box:hover{ 
-    cursor: crosshair;
+    cursor: pointer;
     width: 10em;
     opacity: 1;
 }
