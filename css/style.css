@@ -17,3 +17,49 @@ h1{
     align-items: center;
     margin-top: var(--espaciado-lg);
 }
+button{
+    display: flex;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    padding: 1em;
+    border: 1em;
+    margin-top: 1em;
+    
+}
+
+.contenedor {
+    display: flex;
+    width: 50em;
+    height: 30em;
+    gap: 0.2em;
+    
+}
+.color-box {
+    width: 0em;
+    flex-grow: 1;
+    opacity: 0.8;
+    transition: 0.5s ease;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.color-box:hover{ 
+    cursor: crosshair;
+    width: 10em;
+    opacity: 1;
+}
+.color-label {
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+  color: inherit;
+  font-weight: 700;
+}
+
+/* mostrar etiqueta al pasar el cursor o al enfocar (teclado) */
+.color-box:hover .color-label,
+.color-box:focus .color-label {
+  opacity: 1;
+}
