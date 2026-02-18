@@ -17,6 +17,27 @@ h1{
     align-items: center;
     margin-top: var(--espaciado-lg);
 }
+main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--espaciado-md);
+    margin: var(--espaciado-lg);
+    background-color: var(--color-secundario);
+    color: white;
+    padding: var(--espaciado-xl);
+    border-radius: 10px;
+}
+select{
+    padding: var(--espaciado-sm);
+    border-radius: 4px;
+}
 button{
     display: flex;
     background-color: blue;
@@ -32,8 +53,7 @@ button{
     display: flex;
     width: 50em;
     height: 30em;
-    gap: 0.2em;
-    
+    gap: 0.2em; 
 }
 .color-box {
     width: 0em;
