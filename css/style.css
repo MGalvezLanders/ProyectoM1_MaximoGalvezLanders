@@ -10,3 +10,10 @@
   --espaciado-lg: 2rem;
   --espaciado-xl: 4rem;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--espaciado-lg);
+}
