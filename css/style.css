@@ -1,0 +1,12 @@
+:root{ 
+  --color-primario: #667eea;
+  --color-secundario: #4a464f;
+  --color-texto: #302f2f;
+  --color-fondo: #f4f4f4;
+  
+  --espaciado-xs: 0.25rem;
+  --espaciado-sm: 0.5rem;
+  --espaciado-md: 1rem;
+  --espaciado-lg: 2rem;
+  --espaciado-xl: 4rem;
+}
