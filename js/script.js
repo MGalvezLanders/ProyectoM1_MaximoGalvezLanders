@@ -55,7 +55,7 @@ function generarPaleta(cantidad){
             const sectionPaleta = document.createElement('section');
             sectionPaleta.classList.add('color-box');
             sectionPaleta.style.backgroundColor = colorHsl;
-            sectionPaleta.innerHTML = `<span class="color-label">${colorHsl} / Hex: ${colorHex}</span>`;
+            sectionPaleta.innerHTML = `<span class="color-label">${colorHsl} <br> Hex: ${colorHex}</span>`;
             sectionPaleta.setAttribute('tabindex', '0');
            
 
