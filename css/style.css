@@ -1,3 +1,4 @@
+/* Variable generales */
 :root{ 
   --color-primario: #667eea;
   --color-secundario: #4a464f;
@@ -10,13 +11,14 @@
   --espaciado-lg: 2rem;
   --espaciado-xl: 4rem;
 }
-
+/* Titulo de la paguina */
 h1{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: var(--espaciado-lg);
 }
+/* Parte principal de la paguina */
 main{
     display: flex;
     justify-content: space-evenly;
@@ -27,6 +29,7 @@ main{
     padding: var(--espaciado-xl);
     
 }
+/* Ajustes del todo el formulario */
 form{
     display: flex;
     flex-direction: column;

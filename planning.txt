@@ -2,7 +2,7 @@
                 -> repositorio de github
             ✅       - nombre del repositorio: ProyectoM1_CamiloPineda     
             ✅       - configuracion de visibilidad - publico              
-                   - commits claros
+            ✅       - commits claros
             ✅       - trabajar sobre la rama main y tener una buena estructura del proyecto  
             ✅        - Uso de HTML semántico.  
             ✅           - Uso de buenas practicas de CSS. 
@@ -14,7 +14,7 @@
             ✅       - Botón “Generar paleta” operativo.
             ✅           - Generación correcta de colores aleatorios.
             ✅           - Render dinámico según el tamaño seleccionado.
-                    - Microfeedback visible (tooltip).
+            ✅        - Microfeedback visible (tooltip).
                     - Consideraciones básicas de accesibilidad (labels asociados, contraste suficiente, foco visible).
                 -> Readme.md
                     - instrucciones de uso de la APP - manual de usuario.
