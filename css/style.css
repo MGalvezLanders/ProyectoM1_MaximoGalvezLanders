@@ -77,6 +77,15 @@ button{
     width: 10em;
     opacity: 1;
 }
+.toast{
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    background: black;
+    color: white;
+    padding: var(--espaciado-xs);
+    border-radius: 5px;
+}
 .color-label {
   opacity: 0;
   transition: opacity 0.25s ease;

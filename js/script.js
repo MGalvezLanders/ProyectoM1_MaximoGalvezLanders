@@ -2,6 +2,10 @@ let boton = document.getElementById('miBoton');
 let paleta = document.getElementById('paleta');
 let tamañoPaleta = document.getElementById('tamañoPaleta');
 let formato = document.getElementById('formato');
+let toast = document.createElement('div');
+toast.classList.add('toast');
+document.body.appendChild(toast);
+toast.style.display = 'none';
 
 
 function generarColorHex(cantidad){
@@ -39,8 +43,7 @@ function generarPaleta(cantidad){
             sectionPaleta.style.backgroundColor = colorHex;
             sectionPaleta.style.boxShadow = '0 0 8px rgba(0, 0, 0, 0.5)';
             sectionPaleta.innerHTML = `<span class="color-label">${colorHex}</span>`;
-            sectionPaleta.setAttribute('tabindex', '0');
-            
+            sectionPaleta.setAttribute('tabindex', '0');            
 
             if (colorLetraHex(colorHex)) {
                 sectionPaleta.style.color = 'white';
@@ -59,8 +62,7 @@ function generarPaleta(cantidad){
             sectionPaleta.style.backgroundColor = colorHsl;
             sectionPaleta.style.boxShadow = '0 0 8px rgba(0, 0, 0, 0.5)';
             sectionPaleta.innerHTML = `<span class="color-label">${colorHsl} <br> Hex: ${colorHex}</span>`;
-            sectionPaleta.setAttribute('tabindex', '0');
-           
+            sectionPaleta.setAttribute('tabindex', '0');           
 
             if (colorLetraHsl(colorHsl)) {
                 sectionPaleta.style.color = 'white';
@@ -77,6 +79,11 @@ function generarPaleta(cantidad){
 boton.addEventListener('click', () => {
     if (tamañoPaleta.value && formato.value) {
         generarPaleta(tamañoPaleta.value);
+        toast.textContent = `Paleta ${formato.value.toUpperCase()} generada con éxito`;
+        toast.style.display = 'block';
+        setTimeout(() => {
+            toast.style.display = 'none';
+        }, 2000);
     } else {
         alert('Por favor, selecciona un tamaño y un formato.');
     }
