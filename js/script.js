@@ -3,6 +3,7 @@ let paleta = document.getElementById('paleta');
 let tamañoPaleta = document.getElementById('tamañoPaleta');
 let formato = document.getElementById('formato');
 
+
 function generarColorHex(cantidad){
     const numero = Math.floor(Math.random() * 16777215);
     return '#' + numero.toString(16).padStart(6, '0');
@@ -72,6 +73,11 @@ function generarPaleta(cantidad){
     }
 }
 
+
 boton.addEventListener('click', () => {
-    generarPaleta(tamañoPaleta.value);
+    if (tamañoPaleta.value && formato.value) {
+        generarPaleta(tamañoPaleta.value);
+    } else {
+        alert('Por favor, selecciona un tamaño y un formato.');
+    }
 });

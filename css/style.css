@@ -24,7 +24,7 @@ main{
     margin: var(--espaciado-lg);
     border-radius: 10px;
     background-color: rgb(234, 232, 232);
-    padding: var(--espaciado-lg);
+    padding: var(--espaciado-xl);
     
 }
 form{
