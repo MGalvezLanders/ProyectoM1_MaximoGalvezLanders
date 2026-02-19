@@ -102,3 +102,12 @@ button{
 .color-box:focus .color-label {
   opacity: 1;
 }
+/* Ajustes del footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secundario);
+    color: white;
+    padding: var(--espaciado-xs);
+}
