@@ -18,6 +18,12 @@ h1{
     align-items: center;
     margin-top: var(--espaciado-lg);
 }
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--espaciado-sm);
+}
 /* Parte principal de la paguina */
 main{
     display: flex;
