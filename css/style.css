@@ -1,9 +1,7 @@
 /* Variable generales */
 :root{ 
-  --color-primario: #667eea;
-  --color-secundario: #4a464f;
-  --color-texto: #302f2f;
-  --color-fondo: #f4f4f4;
+  --color-primario: #0F172A;
+  --color-secundario: #1E293B;
   
   --espaciado-xs: 0.25rem;
   --espaciado-sm: 0.5rem;
@@ -16,7 +14,9 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: var(--espaciado-lg);
+    padding: var(--espaciado-lg);
+
+    
 }
 .subtitulo{
     display: flex;
@@ -28,10 +28,10 @@ h1{
 main{
     display: flex;
     justify-content: space-evenly;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
     margin: var(--espaciado-lg);
     border-radius: 10px;
-    background-color: rgb(234, 232, 232);
+    background-color: #1E293B;
     padding: var(--espaciado-xl);
     
 }
@@ -43,7 +43,7 @@ form{
     align-items: center;
     gap: var(--espaciado-md);
     margin: var(--espaciado-lg);
-    background-color: var(--color-secundario);
+    background-color: var(--color-primario);
     color: white;
     padding: var(--espaciado-xl);
     border-radius: 10px;
@@ -53,13 +53,14 @@ select{
     border-radius: 4px;
 }
 button{
-    display: flex;
-    background-color: blue;
-    color: white;
+    display: inline-block;
+    background-color: white;
+    color: black;
     border-radius: 4px;
     padding: 1em;
-    border: 1em;
-    margin-top: 1em;
+    margin-top: 3em;
+    font-weight: 600;
+    cursor: pointer;
     
 }
 
@@ -90,17 +91,17 @@ button{
     position: fixed;
     bottom: 2em;
     right: 2em;
-    background: black;
+    background: rgb(97, 95, 95);
     color: white;
     padding: var(--espaciado-xs);
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .color-label {
   opacity: 0;
   transition: opacity 0.25s ease;
-  pointer-events: none;
   color: inherit;
-  font-weight: 700;
+  font-weight: 900;
+
 }
 
 /* mostrar etiqueta al pasar el cursor o al enfocar (teclado) */
