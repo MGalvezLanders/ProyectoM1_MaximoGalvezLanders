@@ -76,6 +76,20 @@ function generarPaleta(cantidad){
     }
 }
 
+paleta.addEventListener('dblclick', (e) => {
+    if (e.target.classList.contains('color-box')) {
+        const colorLabel = e.target.querySelector('.color-label');
+        const colorText = colorLabel.textContent;
+        navigator.clipboard.writeText(colorText).then(() => {
+            toast.textContent = `Color copiado: ${colorText}`;
+            toast.style.display = 'block';
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 2000);
+        });
+    }
+});
+
 
 boton.addEventListener('click', () => {
     if (tamañoPaleta.value && formato.value) {//verifica que se seleccioono un tamaño y un formato
