@@ -76,6 +76,10 @@ Página web encargada de generar paletas de colores en distintos formatos y tama
 
 [Ver aplicacion en GitHub Pages](https://mgalvezlanders.github.io/ProyectoM1_MaximoGalvezLanders/)
 
+## Google Drive
+
+[Archivo de Google Dirve](https://docs.google.com/document/d/14NhUIDGGBpjyF68mPoktPF0jPyypeCXTJQAh4qjbmQI/edit?usp=drive_link)
+
 
    ## AUTOR
 
