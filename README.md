@@ -72,4 +72,13 @@ Página web encargada de generar paletas de colores en distintos formatos y tama
    - Presionar el botón **Save**.
    - ⏳ Esperar unos minutos hasta que el sitio se publique.
 
+## Demo en vivo 
+
+[Ver aplicacion en GitHub Pages](https://mgalvezlanders.github.io/ProyectoM1_MaximoGalvezLanders/)
+
+
+   ## AUTOR
+
+   Maximo Galvez Landers, Desarrollador Web 
+
 

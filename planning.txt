@@ -23,8 +23,8 @@
             ✅        - pasos para desplegar la aplicacion.
             2- Demo desplegada en github Page - MVP (Producto Mínimo Viable)
             3- Documentacion en google drive
-                -> Capturas de pantalla o GIF que muestren el funcionamiento de la aplicacion.
-                -> Documentacion del uso de IA
+            ✅    -> Capturas de pantalla o GIF que muestren el funcionamiento de la aplicacion.
+            ✅    -> Documentacion del uso de IA
                     - prompts utilizados ( capturas de pantalla )
                     - resultados obtenidos ( capturas de pantalla )
             Entrega final: Link del repo + link de google drive
