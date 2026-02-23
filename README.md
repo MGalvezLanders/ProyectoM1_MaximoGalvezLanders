@@ -1,75 +1,75 @@
-# Colorfly Studio
+# 🎨 Colorfly Studio
 
-## Descripcion
+## 📌 Descripción
 
-Paguina web encargada de generar paleta de colores en varios formatos y tamaños
+Página web encargada de generar paletas de colores en distintos formatos y tamaños de manera dinámica y aleatoria.
 
-## Manual de usuario
-![alt text](./img/image-1.png)
-
-1. Boton para seleccionar el **tamaño** de la paleta, opciones **6** ,**8** ,**9**
-
-2. Boton para generar el **formato** ya sea en **HSL** o **HEX**
-
-3. Boton para generar la **paleta de colores**
-
-4. Contenedor de la paleta con los diversos colores generados aleatoriamente
-
-5. Codigo del color en dos formatos seleccionados
 ---
- 
- ## Manual tecnico
 
-### Se decidio usar:
+## 👤 Manual de Usuario
 
--**HTML** para estructura y contenido
+![Vista de la aplicación](./img/image-1.png)
 
--**CSS** para diseño
+1. 🎚 **Selector de tamaño**  
+   Permite elegir la cantidad de colores de la paleta: **6**, **8** o **9**.
 
--**JavaScript** para funcionalidades e interactividad
+2. 🎨 **Selector de formato**  
+   Permite elegir el formato del color: **HSL** o **HEX**.
 
--**GitHub** para despliegue del proyecto
+3. 🚀 **Botón "Generar Paleta"**  
+   Genera una nueva paleta de colores aleatorios.
 
--**GitHub Pages** para subir el proyecto a ineternet
+4. 🟥 **Contenedor de colores**  
+   Muestra los colores generados dinámicamente.
 
-## Pasos para descargar y ejecutar la aplicacion
+5. 🔎 **Código del color**  
+   Muestra el código correspondiente al formato seleccionado.
 
-1. Crear carpeta donde se va ejecutar el codigo
+---
 
-2. Abrir **Visual Studio Code**
+## 🛠 Manual Técnico
 
-3. Clonar repositorio
+### 🔧 Tecnologías utilizadas
 
-  - Ir a la carpeta donde queres guardar el documento y ejecutar en la terminal
+- 🧱 **HTML** → Estructura y contenido  
+- 🎨 **CSS** → Diseño y estilos  
+- ⚙️ **JavaScript** → Funcionalidad e interactividad  
+- 🗂 **GitHub** → Control de versiones y repositorio  
+- 🌍 **GitHub Pages** → Despliegue del proyecto en internet  
 
-   - ```git clone https://github.com/MGalvezLanders/ProyectoM1_MaximoGalvezLanders.git```
+---
 
-4. Intalar extencion de **Live Server**
+## 💻 Pasos para descargar y ejecutar la aplicación
 
-5. Ejecutar **index.html**
+1. 📁 Crear una carpeta donde se ejecutará el proyecto.
 
-## Pasos para desplegar la aplicacion
+2. 🖥 Abrir **Visual Studio Code**.
 
-1. Entrar en la paguina de **GitHub**
+3. 📥 Clonar el repositorio:  
 
-2. Ir al repositorio deseado
+   Ir a la carpeta donde querés guardar el proyecto y ejecutar en la terminal:
 
-3. Entrar en ***Settings***
+   ```bash
+   git clone https://github.com/MGalvezLanders/ProyectoM1_MaximoGalvezLanders.git
 
-4. Dirigirse al apartado de **Page**
+4. 🔌 Instalar la extensión Live Server.
 
-5. Elegir la Branch(Rama) **main**
+5. ▶️ Ejecutar el archivo index.html con Live Server.
 
-6. Elegir la carpeta 
+## 🚀 Pasos para desplegar la aplicación en GitHub Pages
 
-- **root**  Si el archivo HTML esta en la raiz del repositorio
+1. 🌐 Ingresar a GitHub.
+2. 📂 Entrar al repositorio deseado.
+3. ⚙️ Ir a **Settings**.
+4. 📄 Entrar en la sección **Pages**.
+5. 🌿 Seleccionar la rama (**Branch**) `main`.
+6. 📁 Elegir la carpeta:
 
-- **docs** Si existe un archivo docs el cual contiene el HTML
+   - **root** → Si el archivo HTML está en la raíz del repositorio.
+   - **docs** → Si existe una carpeta `docs` que contiene el HTML.
 
-7. Guardar y activar
-
-- Seleccionar el boton ***save***
-
-- Esperar un **par de minutos** hasta que se active 
+7. 💾 Guardar cambios:
+   - Presionar el botón **Save**.
+   - ⏳ Esperar unos minutos hasta que el sitio se publique.
 
 
