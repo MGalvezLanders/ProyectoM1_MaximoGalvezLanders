@@ -15,12 +15,12 @@
             ✅           - Generación correcta de colores aleatorios.
             ✅           - Render dinámico según el tamaño seleccionado.
             ✅        - Microfeedback visible (tooltip).
-                    - Consideraciones básicas de accesibilidad (labels asociados, contraste suficiente, foco visible).
+            ✅        - Consideraciones básicas de accesibilidad (labels asociados, contraste suficiente, foco visible).
                 -> Readme.md
-                    - instrucciones de uso de la APP - manual de usuario.
-                    - desiciones tecnicas - manual tecnico.
-                    - pasos para descargar y ejecutar la aplicacion en local.
-                    - pasos para desplegar la aplicacion.
+            ✅        - instrucciones de uso de la APP - manual de usuario.
+            ✅        - desiciones tecnicas - manual tecnico.
+            ✅        - pasos para descargar y ejecutar la aplicacion en local.
+            ✅        - pasos para desplegar la aplicacion.
             2- Demo desplegada en github Page - MVP (Producto Mínimo Viable)
             3- Documentacion en google drive
                 -> Capturas de pantalla o GIF que muestren el funcionamiento de la aplicacion.
