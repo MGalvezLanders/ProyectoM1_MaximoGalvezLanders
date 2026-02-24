@@ -2,7 +2,7 @@
 
 ## 📌 Descripción
 
-Página web encargada de generar paletas de colores en distintos formatos y tamaños de manera dinámica y aleatoria.
+Página web encargada de generar paletas de colores en distintos formatos (HSL, HEX) y tamaños (6, 8 Y 9) de manera dinámica y aleatoria.
 
 ---
 
