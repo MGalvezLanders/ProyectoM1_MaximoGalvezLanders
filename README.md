@@ -37,6 +37,28 @@ Página web encargada de generar paletas de colores en distintos formatos (HSL, 
 - 🗂 **GitHub** → Control de versiones y repositorio  
 - 🌍 **GitHub Pages** → Despliegue del proyecto en internet  
 
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
+nombre-del-proyecto/
+│
+├── index.html
+├── planning.txt
+├── README.md
+│
+├── css/
+│   ├── reset.css
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+└── img/
+    └── image-1.png
+```
 ---
 
 ## 💻 Pasos para descargar y ejecutar la aplicación
